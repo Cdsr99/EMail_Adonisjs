@@ -1,0 +1,15 @@
+npm i @adonisjs/mail
+node ace configure @adonisjs/mail
+
+/* env.ts
+SMTP_HOST: Env.schema.string({ format: 'host' }),
+SMTP_PORT: Env.schema.number(),
+SMTP_USERNAME: Env.schema.string(),
+SMTP_PASSWORD: Env.schema.string(),
+
+
+*/
+
+node ace make:view emails/gestap_acesso
+
+# ✔  create    resources/views/emails/welcome.edge
