@@ -10,6 +10,6 @@ SMTP_PASSWORD: Env.schema.string(),
 
 */
 
-node ace make:view emails/gestap_acesso
+node ace make:view emails/reset_senha
 
 # ✔  create    resources/views/emails/welcome.edge
